@@ -1,0 +1,92 @@
+#main_menu2{
+    list-style:none;
+    padding-left: 0px;
+}
+
+#main_menu2 li{
+    display: inline-block;
+}
+
+#main_menu2 li a{
+    text-decoration: none;
+    display: block;
+    padding: 5px 25px;
+    color: blueviolet;
+}
+
+#main_menu2 li a:hover{
+    color: rgb(233, 248, 23);
+}
+
+#main_menu2 li:hover {
+    background-color: black;
+    border-radius: 25px;
+}
+
+/*--------------------------*/
+
+body{
+    padding-top: 41px;
+    font-family: Microsoft JhengHei, Arial; /* 設定字體 */
+}
+
+div {
+	text-align: center;
+}
+
+ul {
+	margin: 0;
+}
+
+#top{
+    background-color: rgba(0,0,0, .7);
+    position: fixed; /* 位置為固定 */
+    z-index: 10;	/* 在此網頁中的圖層位置為上面第10層 */
+    top: 0;	/* 離視窗上緣0px，所以緊貼上方 */
+    width: 100%;	/* 由於設定為 fixed 後，寬度會依照內容大小呈現，但由於要左右滿版，所以寬度就設定為100 */
+    padding: 10px;
+	margin: 0;
+}
+#top ul {
+	list-style: none; /* 不顯示項目符號 */
+	padding-left: 0;
+}
+#top ul li {
+	display: inline-block; /*設定元素、區塊自動水平排列填滿瀏覽器*/
+}
+
+#top ul li a {
+	color: #fff;
+	padding: 10px 30px;
+	text-decoration: none; /*關閉底線*/
+}
+#top ul li a:hover {
+	color: #d8cb00;
+}
+
+#top ul li.active a {
+	background-color: rgba(255,255,255, 1);
+	color: #333;
+}
+.box1 {
+    height: 80px;
+    background: lightpink;
+}
+
+@media(max-width: 920px) {
+    .box1 {
+        background: orange;
+    }
+}
+
+@media(max-width: 768px) {
+    .box1 {
+        background: lightyellow;
+    }
+}
+
+@media(max-width: 540px) {
+    .box1 {
+        background: lightgreen;
+    }
+}
