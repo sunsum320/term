@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>映汝的愛好展覽室</title>
+    <link rel="stylesheet" href="css/w8.css">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/X-UA-Compatible">
+    <link rel='stylesheet' href="css/test.css">
+    <link rel="stylesheet" href="css/lativ_demo.css" />
+    <audio src="mu/RELIC SONG Remaster.mp3" id="aud" autoplay="autoplay" controls="controls" preload="auto"></audio>
+    
+    <link rel="stylesheet" href="css/style2.css">
+    <style>
+        #box{
+            width: 500px;
+            background-color: rgba(128, 232, 255, 0.446);
+            border: 2px solid rgb(255, 253, 195);
+        }
+    </style>
+
+    <style>
+        body {
+            background-image: url(image/po.gif);
+
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            padding-bottom: 30px;
+            font-family: Microsoft JhengHei, Arial;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h1><span style="color:rgb(255, 252, 247);">書籍</span></h1>
+    <nav>
+        <ul id="main_menu">
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="men.html">電玩</a></li>
+            <li><a href="women.html">書籍</a></li>
+            <li><a href="kids.html">動畫</a></li>
+            <li><a href="sports.html">寵物</a></li>
+        </ul>
+    </nav>
+
+    <div id="box">
+        <h2>舊書不厭百回讀。</h2>
+        <p>我真的沒有喜歡致鬱向</p>
+    </div>
+    <br>
+    <button id="fadeInBtn">FadeIn</button>
+    <button id="fadeOutBtn">FadeOut</button>
+    <button id="fadeToggleBtn">FaBeToggle</button>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script >
+        $(document).ready(function(){
+            $('#fadeInBtn').click(function(){
+                $('#box p').hide(1000,function(){
+                  console.log("訊息隱藏");
+                });
+           });
+           $('#fadeOutBtn').click(function(){
+                $('#box p').show(1000,function(){
+                  console.log("訊息顯示");
+                });
+           });
+            $('#fadeToggleBtn').click(function(){
+                $('#box p').toggle(500,function(){
+                  console.log("訊息切換");
+                });
+           });
+           
+       });
+    </script>
+
+    <img src="images/background2.jpg" alt="">
+    <div class="box">
+        <h1><span style="color:rgb(255, 252, 247);">アボガド6</span></h1>
+        <span class="data" style="color:rgb(255, 252, 247);">阿密迪歐旅行記</span>
+        <div class="content">
+            <div class="photo">
+                <img src="image/下載.jpg" />
+            </div>
+            <span style="color:rgb(255, 252, 247);"><p> 盡頭之後，會得到永遠的平靜嗎？
+                赴死之前，讓我們一起繞繞路吧！</p></span>
+        
+            <span class="data" style="color:rgb(255, 252, 247);">滿是空虛之物</span>
+            <div class="content">
+                <div class="photo">
+                    <img src="image/images5.jpg" />
+                </div>
+                <span style="color:rgb(255, 252, 247);"><p>為什麼我們的日常如此瘋狂、如此脆弱，卻又如此難以放手呢？</p></span>
+            
+
+                <span class="data" style="color:rgb(255, 252, 247);">滿是溫柔的土地上</span>
+                <div class="content">
+                    <div class="photo">
+                        <img src="image/images6.png" />
+                    </div>
+                    <span style="color:rgb(255, 252, 247);"><p> 真正擁有「心」的，
+                        是人類，還是機器人？</p></span>
+
+        
+        </div>
+        <div class="box">
+            <span style="color:rgb(255, 252, 247);"><h1>潘柏霖</h1></span>
+            <span class="data" style="color:rgb(255, 252, 247);">人工擁抱</span>
+            <div class="content">
+                <div class="photo">
+                    <img src="image/images3.png" />
+                </div>
+                <span style="color:rgb(255, 252, 247);"><p>我不知道我是真的想擁抱你還是只為了被你喜歡。</p></span>
+            
+                <span class="data" style="color:rgb(255, 252, 247);">恐懼先生</span>
+                <div class="content">
+                    <div class="photo">
+                        <img src="image/images4.png" />
+                    </div>
+                    <span style="color:rgb(255, 252, 247);"><p>你櫃子裡的怪物，不會自己離開那裡，你走在路上還是隨時都可能被外星人綁架。</p></span>
+                
+                    <span class="data" style="color:rgb(255, 252, 247);">我喜歡我自己</span>
+                    <div class="content">
+                        <div class="photo">
+                            <img src="image/images8.png" />
+                        </div>
+                        <span style="color:rgb(255, 252, 247);"><p>我多麼想放棄我的生活／但你說要放棄生活／我要先有生活</p></span>
+                    
+            </div>
+
+            <footer>
+                <div class="info">
+                    &copy; 2024 nora_6
+                </div>
+            </footer>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+#main_menu{
+	padding-left:0;
+	list-style:none;
+}
+
+#main_menu li{
+	display: inline-block;
+}
+
+#main_menu li a{
+	display: block;
+	padding: 5px 25px;
+	text-decoration:none;
+	color: #444444;
+}
+
+#main_menu li a:hover{
+	color: #83521e;
+}
